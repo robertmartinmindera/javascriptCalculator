@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!--
+    
+
+    1) As a user, I need a calculator that can interpret order of 
+    operations so that I can use complex equations.
+
+    2) As a user, I need to be able to use this calculator on my phone
+    and on my computer so that I have mobile use of the app.
+
+    3)As a developer, I need to make a calculator user interface that
+    can work with either a keyboard or a mouse/touchscreen. (2hrs+1hr)
+
+    4)As a developer, I need to create a space where the user can build
+    a mathematical equation that the calculator can interpret and execute.
+    (1hr + 1hr)
+    5)As a developer, I need to program the order of operations (PEMDAS)
+    such that the calculator can interpret the equation correctly and give
+    the proper final value.
+    (5hrs+5hrs)
+
+ 
+
+    -->
+    <div class="calculatorContainer">
+      <div class="equationHeader">
+        <input type="text" id="inputEquation" />
+        <button id="run">=</button>
+      </div>
+      <div class="operatorContainer">
+        <button id="add">+</button>
+        <button id="subtract">-</button>
+        <button id="multiply">*</button>
+        <button id="divide">/</button>
+        <button id="raise">^</button>
+      </div>
+      <div class="constantContainer">
+        <button id="pi">pi</button>
+        <button id="exp">e</button>
+        <button id="back">BS</button>
+        <button id="clear">C</button>
+      </div>
+      <div class="numbersContainer">
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="0">0</button>
+        <button id="decimal">.</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
